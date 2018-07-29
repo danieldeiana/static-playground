@@ -1,3 +1,9 @@
+// Delete once implemented
+alert(
+`Change your title var named newTitle within index.js
+then delete this alert`
+)
+
 // Dynamically render the document and header - h1 title
 const newTitle = 'Static Playground';
 const headerTitle = document.getElementById('header-title');
