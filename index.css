@@ -3,8 +3,9 @@
     DEFAULT CSS
 ******************
 */
+/* THE BACKGROUND HEADER */
 /* Move the header to the back and centralise the h1 element. Greyed to remove emphasis */
-header, h1 {
+header, h1, header p {
     z-index: -1;
 }
 
@@ -23,4 +24,39 @@ header p {
     font-size: 20px;
     top: 45%;
 }
+
+/* STYLE FOR CODE EXAMPLES */
+pre {
+    background: #000;
+    border: 6px solid #AAA;
+    color: #BF0;
+    font-size: 22px;
+    text-align: left;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.snippet {
+    color: #F55;
+}
+
+/* TOP LEVEL ELEMENT STYLES */
+main {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p, li {
+    font-size: 20px;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    padding-left: 20px;
+}
+
 /* ************ */
